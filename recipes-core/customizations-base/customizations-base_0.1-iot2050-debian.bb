@@ -15,7 +15,8 @@ include local.inc
 
 DESCRIPTION = "IOT2050 reference image customizations"
 
-DEBIAN_DEPENDS = "u-boot-tools"
+DEPENDS = "libubootenv"
+DEBIAN_DEPENDS = "libubootenv"
 
 SRC_URI = " \
     file://postinst \
